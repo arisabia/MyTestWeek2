@@ -1,0 +1,5 @@
+C:\Users\larisa.b.antonica\Desktop\MyTestAcademy\TestWeek2\TestWeek2\TestWeek2.Execute\obj\Debug\net5.0\TestWeek2.Execute.csproj.AssemblyReference.cache
+C:\Users\larisa.b.antonica\Desktop\MyTestAcademy\TestWeek2\TestWeek2\TestWeek2.Execute\obj\Debug\net5.0\TestWeek2.Execute.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larisa.b.antonica\Desktop\MyTestAcademy\TestWeek2\TestWeek2\TestWeek2.Execute\obj\Debug\net5.0\TestWeek2.Execute.AssemblyInfoInputs.cache
+C:\Users\larisa.b.antonica\Desktop\MyTestAcademy\TestWeek2\TestWeek2\TestWeek2.Execute\obj\Debug\net5.0\TestWeek2.Execute.AssemblyInfo.cs
+C:\Users\larisa.b.antonica\Desktop\MyTestAcademy\TestWeek2\TestWeek2\TestWeek2.Execute\obj\Debug\net5.0\TestWeek2.Execute.csproj.CoreCompileInputs.cache

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "TestWeek2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TestWeek2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestWeek2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TestWeek2/1.0.0": {
+      "type": "project",
+      "path": "../TestWeek2/TestWeek2.csproj",
+      "msbuildProject": "../TestWeek2/TestWeek2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "TestWeek2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\larisa.b.antonica\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2\\TestWeek2.csproj",
-      "projectName": "TestWeek2",
-      "projectPath": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2\\TestWeek2.csproj",
+      "projectUniqueName": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2.Exe\\TestWeek2.Exe.csproj",
+      "projectName": "TestWeek2.Exe",
+      "projectPath": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2.Exe\\TestWeek2.Exe.csproj",
       "packagesPath": "C:\\Users\\larisa.b.antonica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2\\obj\\",
+      "outputPath": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2.Exe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\larisa.b.antonica\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2\\TestWeek2.csproj": {
+              "projectPath": "C:\\Users\\larisa.b.antonica\\Desktop\\MyTestAcademy\\TestWeek2\\TestWeek2\\TestWeek2\\TestWeek2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

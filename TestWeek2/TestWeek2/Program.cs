@@ -6,12 +6,13 @@ namespace TestWeek2
     {
         static void Main(string[] args)
         {
-            Account account = App.Menu();
-            Console.WriteLine(account);
-            if (account != null)
-            {
-                bool esito = App.Menu();
-            }
+
+           //var account = App.Menu();
+           // Console.WriteLine(account); 
+            //if (account != null)
+            //{
+            //    bool esito = App.Menu();
+            //}
         }
     }
 }
